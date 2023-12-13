@@ -1,0 +1,223 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+ body{
+    padding:0px;
+   text-align: center;
+    background-color: #43778C;
+    margin:0px;
+  
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    margin : auto;
+left:0;
+font-family: 'Jomhuria', serif;
+right:0;
+    height: 50px;
+    width: 75%;
+    font-size: 30px;
+    color:white;
+    background-color: #FF9900;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.logo{
+    width: 75%;
+}
+.navbar a{
+    color:black;
+    padding: 15px 0px 10px;
+    margin-left:40px;
+    margin-right:40px;
+    
+}
+.sidebar{
+    text-align: center;
+    padding: 40px;
+   
+}
+.sidebar-images img{
+border-radius: 35px;
+box-shadow: rgba(0.50, 0, 0, 0.50) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   width: 80%;
+}
+.Products{
+        background-color: #FF9900;
+        margin : auto;
+        width: 75%;
+        z-index: 1;
+        overflow-x: hidden;
+        
+        border-radius: 35px;
+}
+.backgraund-items{
+height: 350px;
+z-index: -1;
+    width: 45%;
+    margin-left: -50px;
+margin-top:-300px;
+    border-radius: 50px;
+    background-color: #1B1B1B;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+}
+
+.backgraund-items-2{
+    height: 250px;
+        margin-left:70%;
+        width: 45%;
+        margin-top:250px;
+    z-index: -1;
+        border-radius: 50px;
+        background-color: #1B1B1B;
+        overflow: visible;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+.backgraund-items-3{
+    height: 250px;
+        margin-left:-10%;
+        width: 45%;
+        margin-top:250px;
+        z-index: -1;
+        border-radius: 50px;
+        background-color: #1B1B1B;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        
+    }
+    .Products h1{
+        font-family: 'Luckiest Guy', cursive;
+    }
+    .about{
+        background-color: #1B1B1B;
+        margin : auto;
+        left:0;
+        width: 75%;
+        color:white ;
+        right: 0;
+        border-radius: 35px;
+        height: 400px;
+    }
+    .about h1{
+        font-family: 'Luckiest Guy';
+        font-size: 50px;
+        width: 100%;
+        text-align: left;
+        margin:50px
+    }
+    .about p{
+            font-family: 'Roboto', sans-serif;
+            text-align: left;
+            margin:55px
+    }
+    
+.fidebar{
+    height: 200px;
+    margin-top: 50px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    overflow: hidden;
+    background-color: #FF9900;
+
+}
+.backgraund-items-4{
+    height: 100px;
+        width: 25%;
+      margin-top: -10px;
+      margin-right:-50px;
+      float: right;
+      z-index: -1;
+        border-radius: 35px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        
+    }
+    .backgraund-items-5{
+        height: 100px;
+            width: 45%;
+          margin-top: 150px;
+          margin-left:-150px;
+        z-index: 1;
+        
+            overflow-x: hidden;
+            border-radius: 35px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            
+        }
+        .fidebar span{
+                float: left;
+            margin:30px;
+            margin-top:40px;
+            font-size: 25px;
+            font-family: 'Luckiest Guy';
+        }
+        .prud{
+            margin: 50px;
+            border-radius: 35px;
+            width: 60%;
+            background-color: #EB8E03;
+           height: 70%;
+           box-shadow: rgba(0, 0, 0, 0.30) 0px -20px 20px 0px inset, rgba(0, 0, 0, 0.30) 0px -36px 50px 50px inset, rgba(0, 0, 0, 0.1) 0px -15px 10px 0px inset, rgba(0, 0, 0, 0.20) 0px 1px 0px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 56px 99px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+        .circul{
+            background-color: white;;
+            width: 20%;
+            height: 20%;
+            border-radius: 150px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            text-align: center;
+        }
+        .product-images{
+            
+        display: flex;
+        
+        }
+        .product-images h2{
+           
+           margin-left:25%
+        }
+        .type{
+            border-top-right-radius: 35px;
+            border-top-left-radius: 35px;
+            background-color: #1B1B1B;
+            text-align: start;
+            padding-bottom: 9px;
+            margin: 10px;
+            padding: 15px;
+            margin-right: 50px;
+            margin-left:150px
+        }
+        .type p{
+        font-size:20px;
+        color:white;
+        margin-left: 25px;
+        }
+        .type span{
+            font-size:20px;
+            margin-left: 25px;
+            color:white;
+            
+            }
+            .type h2{
+                font-size:20px;
+               text-align: center;
+                color:white;
+                
+                }
+        
+        
+        @media (max-width: 1100px) {
+            .prud {
+                width: 80%;
+            }
+        
+            .type, .product-images {
+                margin: 10px;
+            }
+        }
+        
